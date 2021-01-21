@@ -35,7 +35,7 @@ primaryBtn.addEventListener("click", function(e) {
 
 
 function uIControl(minOrMax) {
-    console.log(minOrMax);
+   
     const numbers = document.querySelector("#numbers").value;
     const numbersArray = numbers.split(',');
     if(minOrMax === "max") {
